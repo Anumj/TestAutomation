@@ -1,0 +1,9 @@
+com\qa\pages\LoginPage.class
+com\qa\pages\Homepage.class
+com\qa\excel\utility\Xls_Reader.class
+com\qa\pages\productpage.class
+com\qa\utility\TestUtils.class
+com\qa\utility\WebEventListener.class
+com\qa\ExtentReportListener\ExtentReporter.class
+com\qa\utility\GeneralUtilityHelper.class
+com\qa\base\TestBase.class
