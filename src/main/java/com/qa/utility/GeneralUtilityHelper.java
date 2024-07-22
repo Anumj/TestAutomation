@@ -16,13 +16,7 @@ public class GeneralUtilityHelper {
 		}
 	}
 
-	/**
-	 * Method to GET the current date in the date format ddMMMyyyy
-	 * 
-	 * @author sanojs
-	 * @since 20-04-2020
-	 * @throws AutomationException
-	 */
+	
 	public String getCurrentDateInFormatddMMMyyyy() throws Exception {
 		try {
 			DateFormat dateFormat = new SimpleDateFormat("dd MMM yyyy");
