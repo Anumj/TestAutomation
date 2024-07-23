@@ -29,7 +29,7 @@ public class TestUtils extends TestBase
 	public static int rowcnt=0;
 
 	
-	public static String TESTDATA_SHEET_PATH = "D:\\Personal\\Anu_workspace\\Practice1\\src\\main\\java\\com\\qa\\testdata\\PracticeData.xlsx";
+	public static String TESTDATA_SHEET_PATH = System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\testdata\\PracticeData.xlsx";
 
 	static Workbook book;
 	static Sheet sheet;
@@ -75,8 +75,8 @@ public class TestUtils extends TestBase
 		ArrayList<Object[]> mydata=new ArrayList<Object[]>();
 		try
 		{
-			reader= new Xls_Reader("D:\\Personal\\Anu_workspace\\Practice1\\src\\main\\java\\com\\qa\\testdata\\PracticeData.xlsx");
-		}
+			reader= new Xls_Reader(System.getProperty("user.dir")+"\\src\\main\\java\\com\\qa\\testdata\\PracticeData.xlsx");
+    	}
 	catch(Exception e)
 		{
 		e.printStackTrace();
@@ -108,7 +108,6 @@ public class TestUtils extends TestBase
 	
 }
 
-	//**************************************************************************************************//
 
 
 
